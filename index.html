@@ -4,50 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./calculos.js"></script>
     <title>Lancamentos</title>
 </head>
 <body>
-    <p>Módulo velocidade inicial: <input type="number" value="0"></p>
-    <p>Ângulo entre o vetor velocidade inicial e a horizontal: <input type="number" value="0"></p>
-    <p>Altura do lançamento em relação ao chão: <input type="number" value="0"></p>
-    <p>Tempo que gostaria de estudar: <input type="number" value="0"></p>
+    <p>Módulo velocidade inicial: <input type="number" value="0" id="VelInicial"></p>
+    <p>Ângulo entre o vetor velocidade inicial e a horizontal: <input type="number" value="0" id="Angulo" ></p>
+    <p>Altura do lançamento em relação ao chão: <input type="number" value="0" id="AlturaLancamento"></p>
+    <p>Tempo que gostaria de estudar: <input type="number" value="0" id="TempoEstudado"></p>
 
     <table>
         <tr>
-        <th>Velocidade inicial no eixo y: </th>
-        <td>23</td>
+        <th id="VelInicialY">Velocidade inicial no eixo y: </th>
+        <td id="Resp_VelInicialY"></td>
     </tr>
     <tr>
-        <th>Velocidade inicial no eixo x</th>
-        <td>42</td>
+        <th id="VelInicialX">Velocidade inicial no eixo x</th>
+        <td id="Resp_VelInicialX"></td>
     </tr>
     <tr>
-        <th>Altura máxima atingida: </th>
-        <td>42</td>
+        <th id="AlturaMaxima">Altura máxima atingida: </th>
+        <td id="Resp_AlturaMaxima"></td>
     </tr>
     <tr>
-        <th>Distância percorria no eixo x no momento da altura máxima atingida: </th>
-        <td>42</td>
+        <th id="DistXnaAlturaMaxima">Distância percorria no eixo x no momento da altura máxima atingida: </th>
+        <td id="Resp_DistXnaAlturaMaxima"></td>
     </tr>
     <tr>
-        <th>Velocidade y no intervalo escolhido: </th>
-        <td>42</td>
+        <th id="VelYNoTempoT">Velocidade y no intervalo escolhido: </th>
+        <td id="Resp_VelYNoTempoT"></td>
     </tr>
     <tr>
-        <th>Altura no intervalo escolhido: </th>
-        <td>42</td>
+        <th id="AlturaNoTempoT">Altura no intervalo escolhido: </th>
+        <td id="Resp_AlturaNoTempoT"></td>
     </tr>
     <tr>
-        <th>Distância percorrida no intervalo escolhido: </th>
-        <td>42</td>
+        <th id="DistxNoTempoT">Distância percorrida no intervalo escolhido: </th>
+        <td id="Resp_DistxNoTempoT"></td>
     </tr>
     <tr>
-        <th>Tempo em que atingiu o chão: </th>
-        <td>42</td>
+        <th id="TempoQueChegouNoChao">Tempo em que atingiu o chão: </th>
+        <td id="Resp_TempoQueChegouNoChao"></td>
     </tr>
     <tr>
-        <th>Distância percorrida ao atingir o chão: </th>
-        <td>42</td>
+        <th id="DistPercorridaChao">Distância percorrida ao atingir o chão: </th>
+        <td id="Resp_DistPercorridaChao"></td>
     </tr>
     </table>
 
