@@ -8,10 +8,10 @@
     <title>Lancamentos</title>
 </head>
 <body>
-    <p>Módulo velocidade inicial: <input type="number" value="0" id="VelInicial" oninput="pegarValorPeloId('Resp_VelInicialY')"></p>
-    <p>Ângulo entre o vetor velocidade inicial e a horizontal: <input type="number" value="0" id="Angulo" ></p>
-    <p>Altura do lançamento em relação ao chão: <input type="number" value="0" id="AlturaLancamento"></p>
-    <p>Tempo estudado: <input type="number" value="0" id="TempoEstudado"></p>
+    <p>Módulo velocidade inicial: <input type="number" value="0" id="VelInicial" oninput="principal()"></p>
+    <p>Ângulo entre o vetor velocidade inicial e a horizontal: <input type="number" value="0" id="Angulo"  oninput="principal();"></p>
+    <p>Altura do lançamento em relação ao chão: <input type="number" value="0" id="AlturaLancamento" oninput="principal();"></p>
+    <p>Tempo estudado: <input type="number" value="0" id="TempoEstudado" oninput="principal();"></p>
 
     <table>
         <tr>
@@ -25,6 +25,10 @@
     <tr>
         <th id="AlturaMaxima">Altura máxima atingida: </th>
         <td id="Resp_AlturaMaxima"></td>
+    </tr>
+    <tr>
+        <th id="TempoAlturaMaxima">Tempo da altura máxima: </th>
+        <td id="Resp_TempoAlturaMaxima"></td>
     </tr>
     <tr>
         <th id="DistXnaAlturaMaxima">Distância percorria no eixo x no momento da altura máxima atingida: </th>
@@ -47,12 +51,20 @@
         <td id="Resp_TempoQueChegouNoChao"></td>
     </tr>
     <tr>
+        <th id="VelYChao">Velocidade y ao atingir o chão: </th>
+        <td id="Resp_VelYChao"></td>
+    </tr>
+    <tr>
         <th id="DistPercorridaChao">Distância percorrida ao atingir o chão: </th>
         <td id="Resp_DistPercorridaChao"></td>
     </tr>
     </table>
-
-    <p>Coloque todos os valores no sistema internacional, afinal somos pessoas civilizadas</p><br>
+    <p>Coloque todos os valores no sistema internacional, afinal somos pessoas civilizadas <br>
+        Utilize ponto no lugar da vírgula!!
+    </p>
+    <p>Eu não me responsabilizo caso você erre o exercício</p><br>
+    <p>Contribua! </p>
+    <p>Pix: (11)98691-8519</p>
     <p>Criado por Lucas Duez</p>
 
 </body>
